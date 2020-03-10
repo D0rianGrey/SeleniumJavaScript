@@ -8,6 +8,5 @@ jspm_packages/
 .idea/misc.xml
 .idea/modules.xml
 .idea/vcs.xml
-index.js
 package-lock.json
 package.json
