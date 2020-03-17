@@ -1,6 +1,7 @@
 
 # Dependency directories
 node_modules/
+SeleniumTutorial/
 jspm_packages/
 
 .idea/.gitignore
