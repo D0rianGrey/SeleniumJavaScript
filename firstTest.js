@@ -5,7 +5,9 @@ const {should} = require("chai");
 
 async function example() {
     try {
-        let driver = await new Builder().forBrowser("chrome").build();
+        let driver = await new Builder().
+        forBrowser("chrome").
+        build();
         await driver.manage().setTimeouts({implicit: 10000});
         await driver.get("http://google.com.ua");
         //await driver.findElement(By.name("q")).sendKeys("Selenium", Key.RETURN);
